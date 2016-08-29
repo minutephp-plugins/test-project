@@ -1,0 +1,98 @@
+{
+  "name": "minutephp/minute",
+  "description": "MinutePhp v0.01",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sanchit",
+      "email": "dev@minutephp.com"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "symfony/routing": "^3.1",
+    "patricklouys/http": "^1.3",
+    "strscan/strscan": "^1.0",
+    "nette/caching": "^2.4",
+    "minutephp/auth": "dev-master",
+    "davidgorges/human-name-parser": "^0.2.1",
+    "minutephp/framework": "dev-master",
+    "minutephp/mail": "dev-master",
+    "minutephp/aws": "dev-master",
+    "nicmart/string-template": "^0.1.0",
+    "minutephp/user": "dev-master",
+    "html2text/html2text": "^4.0",
+    "guzzlehttp/guzzle": "^6.2",
+    "mockery/mockery": "dev-master",
+    "minutephp/admin": "dev-master",
+    "minutephp/cms": "dev-master",
+    "minutephp/translate": "dev-master",
+    "minutephp/cli": "dev-master",
+    "minutephp/support": "dev-master",
+    "minutephp/autoresponder": "dev-master",
+    "minutephp/product": "dev-master",
+    "minutephp/bug": "dev-master",
+    "bugsnag/bugsnag": "3.0",
+    "filp/whoops": "^2.1",
+    "minutephp/cron": "dev-master",
+    "mtdowling/cron-expression": "^1.1",
+    "minutephp/bonus": "dev-master",
+    "minutephp/todo": "dev-master",
+    "minutephp/payment": "dev-master",
+    "minutephp/project": "dev-master",
+    "minutephp/member": "dev-master",
+    "minutephp/affiliate": "dev-master",
+    "minutephp/minify": "dev-master",
+    "minutephp/first-run": "dev-master",
+    "cocur/slugify": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Test\\": "test/"
+    }
+  },
+  "repositories": {
+    "minutephp/framework": {
+      "type": "vcs",
+      "url": "E:\\var\\Dropbox\\projects\\github\\minutephp\\framework"
+    },
+    "minutephp/mail": {
+      "type": "vcs",
+      "url": "E:\\var\\Dropbox\\projects\\github\\minutephp\\mail"
+    },
+    "minutephp/aws": {
+      "type": "vcs",
+      "url": "E:\\var\\Dropbox\\projects\\github\\minutephp\\aws"
+    },
+    "minutephp/user": {
+      "type": "vcs",
+      "url": "E:\\var\\Dropbox\\projects\\github\\minutephp\\user"
+    },
+    "minutephp/cms": {
+      "type": "vcs",
+      "url": "E:\\var\\Dropbox\\projects\\github\\minutephp\\cms"
+    },
+    "minutephp/admin": {
+      "type": "vcs",
+      "url": "E:\\var\\Dropbox\\projects\\github\\minutephp\\admin"
+    },
+    "minutephp/translate": {
+      "type": "vcs",
+      "url": "E:\\var\\Dropbox\\projects\\github\\minutephp\\translate"
+    },
+    "minutephp/cli": {
+      "type": "vcs",
+      "url": "E:\\var\\Dropbox\\projects\\github\\minutephp\\cli"
+    },
+    "minutephp/auth": {
+      "type": "vcs",
+      "url": "E:\\var\\Dropbox\\projects\\github\\minutephp\\auth"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.4",
+    "phpunit/dbunit": "^2.0"
+  }
+}
