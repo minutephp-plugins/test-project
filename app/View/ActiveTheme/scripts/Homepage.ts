@@ -9,6 +9,6 @@ module Admin {
         }
     }
 
-    angular.module('HomepageApp', ['MinuteFramework', 'gettext'])
+    angular.module('HomepageApp', ['MinuteFramework', 'MinuteDirectives', 'gettext'])
         .controller('HomepageController', ['$scope', '$minute', '$ui', '$timeout', 'gettext', 'gettextCatalog', HomepageController]);
 }

@@ -2,7 +2,7 @@
 /**
  * Created by: MinutePHP framework
  */
-namespace App\Controller {
+namespace App\Controller\ActiveTheme {
 
     use App\Model\Blog;
     use Minute\View\View;

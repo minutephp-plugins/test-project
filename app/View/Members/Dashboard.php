@@ -2,7 +2,7 @@
 
 <section class="content debug">
 <!-- var dump start -->
-
+hi
 <!-- var dump end -->
 </section>
 

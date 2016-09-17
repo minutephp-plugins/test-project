@@ -42,10 +42,12 @@
     "Detect.js": "^2.2.2",
     "swfobject": "*",
     "angular-medium-editor": "^1.1.1",
-    "jsoneditor": "^5.5.7"
+    "jsoneditor": "^5.5.7",
+    "mousetrap": "^1.6.0"
   },
   "resolutions": {
-    "angular": "1.5.8",
-    "jquery": "^3.1.0"
+    "angular": "^1.5.8",
+    "jquery": "^3.1.0",
+    "jsoneditor": "^5.5.7"
   }
 }

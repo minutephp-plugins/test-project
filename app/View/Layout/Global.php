@@ -22,6 +22,7 @@
 
     <script src="/static/bower_components/es6-promise/promise.js"></script>
     <script src="/static/bower_components/angular-gettext/dist/angular-gettext.js"></script>
+    <script src="/static/bower_components/angular-http-auth/src/http-auth-interceptor.js"></script>
     <script src="/static/bower_components/alertifyjs/dist/js/alertify.js"></script>
 
     <script src="/static/bower_components/emitter/index.js"></script>
@@ -34,6 +35,8 @@
     <script src="/static/bower_components/minute/src/js/minute-ui.js"></script>
     <script src="/static/bower_components/minute/src/js/minute-importer.js"></script>
     <script src="/static/bower_components/minute/src/js/minute-framework.js"></script>
+    <script src="/static/bower_components/minute/src/js/minute-directives.js"></script>
+    <script src="/static/bower_components/minute/src/js/minute-filters.js"></script>
 
     <script src="/static/bower_components/angular-tree-menu/src/js/angular-tree-menu.js"></script>
 

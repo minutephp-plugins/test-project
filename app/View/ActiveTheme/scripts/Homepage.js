@@ -14,6 +14,6 @@ var Admin;
         return HomepageController;
     }());
     Admin.HomepageController = HomepageController;
-    angular.module('HomepageApp', ['MinuteFramework', 'gettext'])
+    angular.module('HomepageApp', ['MinuteFramework', 'MinuteDirectives', 'gettext'])
         .controller('HomepageController', ['$scope', '$minute', '$ui', '$timeout', 'gettext', 'gettextCatalog', HomepageController]);
 })(Admin || (Admin = {}));
