@@ -3,7 +3,7 @@
   "description": "The Minute Framework",
   "type": "project",
   "license": "MIT",
-  "keywords":"angularjs, php, framework",
+  "keywords": ["angularjs", "php", "framework", "js"],
   "authors": [
     {
       "name": "Sanchit Bhatnagar",
