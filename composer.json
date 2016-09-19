@@ -12,8 +12,7 @@
   "require": {
     "php": ">=7",
     "minutephp/framework": "dev-master",
-    "robmorgan/phinx": "^0.6.4",
-    "minutephp/site": "dev-master"
+    "robmorgan/phinx": "^0.6.4"
   },
   "autoload": {
     "psr-4": {
@@ -35,18 +34,5 @@
       "App\\Config\\Plugins::removePlugin"
     ]
   },
-  "minimum-stability": "dev",
-  "repositories": {
-    "0": {
-      "packagist": false
-    },
-    "minutephp/test": {
-      "type": "vcs",
-      "url": "E:/var/Dropbox/projects/github/minutephp/test"
-    },
-    "minutephp/test2": {
-      "type": "vcs",
-      "url": "E:/var/Dropbox/projects/github/minutephp/test2"
-    }
-  }
+  "minimum-stability": "dev"
 }
