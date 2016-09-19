@@ -12,7 +12,8 @@
   "require": {
     "php": ">=7",
     "minutephp/framework": "dev-master",
-    "composer/composer": "^1.2.1"
+    "robmorgan/phinx": "^0.6.4",
+    "minutephp/site": "dev-master"
   },
   "autoload": {
     "psr-4": {
@@ -21,17 +22,10 @@
       "Test\\": "test/"
     }
   },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "http://plugins.minutephp.com/"
-    }
-  ],
-  "require-dev": {
-  },
   "scripts": {
     "post-create-project-cmd": [
       "cd public/static && bower -F install",
+      "cd public/static && typings install",
       "php vendor/minutephp/cli/bin/minutephp first-run"
     ],
     "post-package-install": [
@@ -41,5 +35,18 @@
       "App\\Config\\Plugins::removePlugin"
     ]
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "repositories": {
+    "0": {
+      "packagist": false
+    },
+    "minutephp/test": {
+      "type": "vcs",
+      "url": "E:/var/Dropbox/projects/github/minutephp/test"
+    },
+    "minutephp/test2": {
+      "type": "vcs",
+      "url": "E:/var/Dropbox/projects/github/minutephp/test2"
+    }
+  }
 }
