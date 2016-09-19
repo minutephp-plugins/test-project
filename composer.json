@@ -35,7 +35,7 @@
     ]
   },
   "repositories": [
-    {"type": "composer", "url": "http://plugins.minutephp.com/"}
+    {"type": "composer", "url": "http://plugins.minutephp.com"}
   ],
   "minimum-stability": "dev"
 }
