@@ -1,5 +1,5 @@
 {
-  "name": "minutephp/minute",
+  "name": "minutephp/minutephp",
   "description": "The Minute Framework",
   "type": "project",
   "license": "MIT",
@@ -37,5 +37,6 @@
   },
   "repositories": [
     {"type": "composer", "url": "http://plugins.minutephp.com"}
-  ]
+  ],
+  "minimum-stability": "dev"
 }
