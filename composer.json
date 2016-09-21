@@ -12,8 +12,31 @@
   ],
   "require": {
     "php": ">=7",
-    "minutephp/framework": "^0",
-    "robmorgan/phinx": "^0.6.4"
+    "minutephp\/admin": "*",
+    "minutephp\/affiliate": "*",
+    "minutephp\/auth": "*",
+    "minutephp\/autoresponder": "*",
+    "minutephp\/aws": "*",
+    "minutephp\/bonus": "*",
+    "minutephp\/bug": "*",
+    "minutephp\/cli": "*",
+    "minutephp\/cms": "*",
+    "minutephp\/cron": "*",
+    "minutephp\/debug": "*",
+    "minutephp\/first-run": "*",
+    "minutephp\/framework": "*",
+    "minutephp\/mail": "*",
+    "minutephp\/member": "*",
+    "minutephp\/minify": "*",
+    "minutephp\/minutephp": "*",
+    "minutephp\/payment": "*",
+    "minutephp\/product": "*",
+    "minutephp\/project": "*",
+    "minutephp\/site": "*",
+    "minutephp\/support": "*",
+    "minutephp\/todo": "*",
+    "minutephp\/translate": "*",
+    "minutephp\/user": "*"
   },
   "autoload": {
     "psr-4": {
