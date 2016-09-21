@@ -5801,7 +5801,7 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v3.1.0",
+            "version": "v3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",

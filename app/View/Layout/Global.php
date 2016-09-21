@@ -20,7 +20,7 @@
     <script src="/static/bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="/static/bower_components/angular/angular.js"></script>
 
-    <script src="/static/bower_components/es6-promise/promise.js"></script>
+    <script src="/static/bower_components/es6-promise/es6-promise.js"></script>
     <script src="/static/bower_components/angular-gettext/dist/angular-gettext.js"></script>
     <script src="/static/bower_components/angular-http-auth/src/http-auth-interceptor.js"></script>
     <script src="/static/bower_components/alertifyjs/dist/js/alertify.js"></script>

@@ -37,5 +37,8 @@
   },
   "repositories": [
     {"type": "composer", "url": "http://plugins.minutephp.com"}
-  ]
+  ],
+  "config": {
+    "secure-http": false
+  }
 }

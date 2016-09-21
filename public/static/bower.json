@@ -28,7 +28,6 @@
     "moment": "^2.14.1",
     "angular-bs-tooltip": "*",
     "jquery-ui": "^1.12.0",
-    "angular-gettext": "minutephp/angular-gettext#4a73b89f75ff51b131c1829e276fae11dfda3589",
     "ng-jsoneditor": "^1.0.0",
     "angular-sanitize": "^1.5.7",
     "angular-markdown-filter": "^1.4.0",
@@ -49,7 +48,8 @@
     "animate.css": "*",
     "minute": "minutejs/minute",
     "nya-bootstrap-select": "*",
-    "wow": "^1"
+    "wow": "^1",
+    "es6-promise": "^3.3.1"
   },
   "resolutions": {
     "angular": "^1.5.8",
