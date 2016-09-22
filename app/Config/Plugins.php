@@ -23,7 +23,7 @@ namespace App\Config {
         }
 
         private static function setupPlugin($event, $type) {
-            print "SETUP: 1\n";
+            //print "SETUP: 1\n";
 
             if ($autoloader = realpath(__DIR__ . '/../../vendor/autoload.php')) {
                 if (require_once($autoloader)) {
