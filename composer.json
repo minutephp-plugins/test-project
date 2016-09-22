@@ -28,7 +28,6 @@
     "minutephp\/mail": "*",
     "minutephp\/member": "*",
     "minutephp\/minify": "*",
-    "minutephp\/minutephp": "*",
     "minutephp\/payment": "*",
     "minutephp\/product": "*",
     "minutephp\/project": "*",
