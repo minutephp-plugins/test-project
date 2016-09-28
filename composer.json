@@ -1,66 +1,73 @@
 {
-  "name": "minutephp/minutephp",
-  "description": "The Minute Framework",
-  "type": "project",
-  "license": "MIT",
-  "keywords": ["angularjs", "php", "framework"],
-  "authors": [
-    {
-      "name": "Sanchit Bhatnagar",
-      "email": "dev@minutephp.com"
-    }
-  ],
-  "require": {
-    "php": ">=7",
-    "minutephp\/admin": "*",
-    "minutephp\/affiliate": "*",
-    "minutephp\/auth": "*",
-    "minutephp\/autoresponder": "*",
-    "minutephp\/aws": "*",
-    "minutephp\/bonus": "*",
-    "minutephp\/bug": "*",
-    "minutephp\/cli": "*",
-    "minutephp\/cms": "*",
-    "minutephp\/cron": "*",
-    "minutephp\/debug": "*",
-    "minutephp\/first-run": "*",
-    "minutephp\/framework": "*",
-    "minutephp\/mail": "*",
-    "minutephp\/member": "*",
-    "minutephp\/minify": "*",
-    "minutephp\/payment": "*",
-    "minutephp\/product": "*",
-    "minutephp\/project": "*",
-    "minutephp\/site": "*",
-    "minutephp\/support": "*",
-    "minutephp\/todo": "*",
-    "minutephp\/translate": "*",
-    "minutephp\/user": "*"
-  },
-  "autoload": {
-    "psr-4": {
-      "App\\": "app/",
-      "Minute\\": "minute/",
-      "Test\\": "test/"
-    }
-  },
-  "scripts": {
-    "post-create-project-cmd": [
-      "cd public/static && bower -F install",
-      "cd public/static && typings install",
-      "php vendor/minutephp/cli/bin/minutephp first-run"
+    "name": "minutephp\/minutephp",
+    "description": "The Minute Framework",
+    "type": "project",
+    "license": "MIT",
+    "keywords": [
+        "angularjs",
+        "php",
+        "framework"
     ],
-    "post-package-install": [
-      "App\\Config\\Plugins::installPlugin"
+    "authors": [
+        {
+            "name": "Sanchit Bhatnagar",
+            "email": "dev@minutephp.com"
+        }
     ],
-    "pre-package-uninstall": [
-      "App\\Config\\Plugins::removePlugin"
-    ]
-  },
-  "repositories": [
-    {"type": "composer", "url": "http://plugins.minutephp.com"}
-  ],
-  "config": {
-    "secure-http": false
-  }
+    "require": {
+        "php": ">=7",
+        "minutephp\/framework": "^0",
+        "minutephp/site": "^0.0.2",
+        "minutephp/admin": "^0.0.1",
+        "minutephp/auth": "^0.0.6",
+        "minutephp/aws": "^0.0.5",
+        "minutephp/cli": "^0.0.5",
+        "minutephp/cms": "^0.0.5",
+        "minutephp/mail": "^0.0.6",
+        "minutephp/member": "^0.0.6",
+        "minutephp/support": "^0.0.2",
+        "minutephp/todo": "^0.0.5",
+        "minutephp/user": "^0.0.5",
+        "minutephp/bug": "^0.0.1",
+        "minutephp/cron": "^0.0.5",
+        "minutephp/debug": "^0.0.3",
+        "minutephp/affiliate": "^0.0.5",
+        "minutephp/autoresponder": "^0.0.5",
+        "minutephp/bonus": "^0.0.3",
+        "minutephp/first-run": "^0.0.7",
+        "minutephp/minify": "^0.0.8",
+        "minutephp/payment": "^0.0.5",
+        "minutephp/product": "^0.0.5",
+        "minutephp/project": "^0.0.5",
+        "minutephp/translate": "^0.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app\/",
+            "Minute\\": "minute\/",
+            "Test\\": "test\/"
+        }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "cd public\/static && bower -F install",
+            "cd public\/static && typings install",
+            "php vendor\/minutephp\/cli\/bin\/minutephp first-run"
+        ],
+        "post-package-install": [
+            "App\\Config\\Plugins::installPlugin"
+        ],
+        "pre-package-uninstall": [
+            "App\\Config\\Plugins::removePlugin"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http:\/\/plugins.minutephp.com"
+        }
+    ],
+    "config": {
+        "secure-http": false
+    }
 }
