@@ -1,3 +1,4 @@
+composer.lock
 /app/Config/db-config
 /node_modules
 /public/static/bower_components
