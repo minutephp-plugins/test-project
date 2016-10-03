@@ -1,5 +1,7 @@
 <?php
 
+
+
 use App\Config\BootLoader;
 use Minute\App\App;
 
@@ -11,4 +13,3 @@ $injector   = $bootLoader->getInjector();
 /** @var App $app */
 $app = $injector->make('Minute\App\App');
 $app->run();
-
