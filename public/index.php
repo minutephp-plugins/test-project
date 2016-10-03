@@ -1,6 +1,6 @@
 <?php
 
-define('DEBUG_MODE', true);
+#define('DEBUG_MODE', true);
 
 use App\Config\BootLoader;
 use Minute\App\App;
