@@ -13,4 +13,3 @@ $injector   = $bootLoader->getInjector();
 /** @var App $app */
 $app = $injector->make('Minute\App\App');
 $app->run();
-
