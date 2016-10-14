@@ -36,11 +36,11 @@
         "minutephp/bonus": "^0",
         "minutephp/first-run": "^0",
         "minutephp/minify": "^0",
-        "minutephp/payment": "^0",
         "minutephp/product": "^0",
         "minutephp/project": "^0",
         "minutephp/translate": "^0",
-        "minutephp/offer": "^0"
+        "minutephp/offer": "^0",
+        "minutephp/wallet": "dev-master"
     },
     "autoload": {
         "psr-4": {

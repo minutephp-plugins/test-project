@@ -5,11 +5,13 @@ use Minute\Model\Permission;
 use Minute\Routing\Router;
 
 $router->get('/test', 'ActiveTheme/Homepage', false, 'blogs[2]', 'posts[blogs.blog_id][2] as stories order by post_id', 'comments[stories.post_id][2]', 'users[comments.user_id] as commenter', 'users[2] as users')
-    ->setDefault('blogs', '*')->setDefault('users', '*')
-    ->setReadPermission('blogs', Permission::EVERYONE)->setReadPermission('users', Permission::EVERYONE);
+       ->setDefault('blogs', '*')->setDefault('users', '*')
+       ->setReadPermission('blogs', Permission::EVERYONE)->setReadPermission('users', Permission::EVERYONE);
 
 $router->post('/test', null, false, 'Comment as comments')->setAllPermissions('comments', Permission::EVERYONE)
-    ->setDeleteCascade('comments', 'Like');
+       ->setDeleteCascade('comments', 'Like');
 $router->post('/test', null, false, 'Post as posts')->setDeletePermission('posts', Permission::EVERYONE);
 
 $router->get('/members/projectsz', 'Members/Dashboard', true);
+
+$router->get('/test2', 'Test2', false)->setDefault('_noView', true);
