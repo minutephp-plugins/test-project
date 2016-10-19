@@ -40,7 +40,8 @@
         "minutephp/project": "^0",
         "minutephp/translate": "^0",
         "minutephp/offer": "^0",
-        "minutephp/wallet": "dev-master"
+        "minutephp/wallet": "dev-master",
+        "minutephp/paypal": "dev-master"
     },
     "autoload": {
         "psr-4": {
