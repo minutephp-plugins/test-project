@@ -24,11 +24,12 @@ namespace App\Config {
 
         private static function setupPlugin($event, $type) {
             //print "SETUP: 1\n";
+            $baseDir = realpath(__DIR__ . '/../../');
 
-            if ($autoloader = realpath(__DIR__ . '/../../vendor/autoload.php')) {
+            if ($autoloader = realpath($baseDir . '/vendor/autoload.php')) {
                 if (require_once($autoloader)) {
                     if (is_callable(['Minute\Composer\Setup', 'setupPlugin'])) {
-                        return call_user_func(['Minute\Composer\Setup', 'setupPlugin'], $event, $type);
+                        return call_user_func(['Minute\Composer\Setup', 'setupPlugin'], $event, $type, $baseDir);
                     }
                 }
             }
