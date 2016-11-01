@@ -9,3 +9,4 @@ composer.lock
 /tmp
 /public/tmp
 /app/db
+/public/test.php
