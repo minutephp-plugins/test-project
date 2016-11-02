@@ -8,5 +8,5 @@ composer.lock
 /test
 /tmp
 /public/tmp
-/app/db
+#/db
 /public/test.php
