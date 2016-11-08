@@ -12,6 +12,7 @@
 
                         <div class="well" ng-repeat="comment in story.comments">
                             <p>Comment: {{comment.comment}} by {{comment.commenter.email}} / {{comment.commenter.user_id}}</p>
+                            <button type="button" class="btn btn-flat btn-default" ng-click="comment.remove()"><i class="fa fa-trash"></i></button>
                         </div>
 
                         <div>

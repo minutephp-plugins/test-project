@@ -5,6 +5,8 @@
 namespace App\Controller\ActiveTheme {
 
     use App\Model\Blog;
+    use App\Model\User;
+    use Illuminate\Database\Eloquent\Builder;
     use Minute\View\View;
 
     class Homepage {
