@@ -1,5 +1,10 @@
 composer.lock
 /app/Config/db-config
+/app/Controller
+/app/EventHandler
+/app/Model
+/app/Route
+/app/View
 /node_modules
 /public/static/bower_components
 /public/static/typings
@@ -10,3 +15,5 @@ composer.lock
 /public/tmp
 /db
 /public/test.php
+
+!/app/View/Layout/Global.php
